@@ -22,13 +22,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * PetClinic Spring Boot Application.
  *
+ *
  * @author Dave Syer
+ *
  *
  */
 @SpringBootApplication(proxyBeanMethods = false)
 public class PetClinicApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		SpringApplication.run(PetClinicApplication.class, args);
 	}
 
